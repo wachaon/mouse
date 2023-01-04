@@ -1,4 +1,5 @@
 const ps = require("ps")
+const isCLI = require('isCLI')
 
 const source = `
 $Method = $args[0]
@@ -96,7 +97,15 @@ const rightUp = function mouse_rightUp(x = 0, y = 0) {
     ps(source, ['leftDown', x, y])
 }
 
-module.exports = {
+if (isCLI(__filename)) {
+    const { unnamed } = require('argv')
+    const option = [
+        unnamed[1],
+        unnamed[2] || 0,
+        unnamed[3] || 0
+    ]
+    ps(source, ...option)
+} else module.exports = {
     pos,
     click,
     leftDown,
