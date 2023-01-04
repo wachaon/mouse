@@ -60,13 +60,13 @@ namespace Device {
 
 こちらを
 
-```shell
+```bat
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /target:exe /out:mouse.exe .\mouse.cs
 ```
 
 でコンパイルして
 
-```
+```javascript:mouse.js
 var Shell = WScript.CreateObject('WScript.Shell')
 
 function SetCursorPos (x, y) {
