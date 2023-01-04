@@ -1,6 +1,6 @@
 {
   "name": "mouse",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "mouse operation",
   "main": "index.js",
   "scripts": {

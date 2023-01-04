@@ -99,12 +99,7 @@ const rightUp = function mouse_rightUp(x = 0, y = 0) {
 
 if (isCLI(__filename)) {
     const { unnamed } = require('argv')
-    const option = [
-        unnamed[1],
-        unnamed[2] || 0,
-        unnamed[3] || 0
-    ]
-    ps(source, ...option)
+    ps(source, [unnamed[1], unnamed[2] || 0, unnamed[3] || 0])
 } else module.exports = {
     pos,
     click,
