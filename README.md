@@ -103,7 +103,9 @@ wes の入手方法は [wes](https://github.com/wachaon/wes) から wes.js を�
 bitsadmin /TRANSFER GetWES https://raw.githubusercontent.com/wachaon/wes/master/wes.js %CD%\\wes.js
 ```
 
-wes の [@wachaon/mouse](https://github.com/wachaon/mouse) をインストールします。
+[@wachaon/mouse](https://github.com/wachaon/mouse) をインストールします。
+[@wachaon/mouse](https://github.com/wachaon/mouse) は powershell を使用して先ほどの C# ファイルを実行します。
+詳しくはソースを直接ご確認ください。
 
 ```bat
 wes install @wachaon/mouse --bare
@@ -115,3 +117,5 @@ const mouse = require('mouse')
 mouse.pos(100, 100)
 mouse.click()
 ```
+
+wes を使えば wsh だけでは解決が難しい問題も比較的簡単に処理できます。
