@@ -1,10 +1,10 @@
 {
   "name": "mouse",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "mouse operation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "wes bundle ./src/mouse.cs ./src/compile.js"
   },
   "repository": {
     "type": "git",
