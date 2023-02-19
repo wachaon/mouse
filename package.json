@@ -4,7 +4,7 @@
   "description": "mouse operation",
   "main": "index.js",
   "scripts": {
-    "bundle": "wes bundle ./src/mouse.cs ./src/compile.js"
+    "bundle": "wes bundle ./src/mouse.cs ./src/compile.js ./usage.js"
   },
   "repository": {
     "type": "git",
