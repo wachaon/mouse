@@ -1,6 +1,6 @@
 {
   "name": "mouse",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "mouse operation",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/wachaon/mouse/issues"
   },
-  "homepage": "https://github.com/wachaon/mouse#readme"
+  "homepage": "https://github.com/wachaon/mouse#readme",
+  "wes": {
+    "dependencies": {
+      "csharpscript": "0.0.4"
+    }
+  }
 }
