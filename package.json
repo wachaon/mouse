@@ -1,10 +1,10 @@
 {
   "name": "mouse",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "mouse operation",
   "main": "index.js",
   "scripts": {
-    "bundle": "wes bundle ./src/mouse.cs ./src/compile.js ./usage.js"
+    "bundle": "wes bundle ./src/mouse.cs ./usage.js"
   },
   "repository": {
     "type": "git",
